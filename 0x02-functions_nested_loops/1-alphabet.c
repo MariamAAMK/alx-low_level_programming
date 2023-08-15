@@ -1,16 +1,15 @@
 #include "main.h"
+
 /**
- * main - check the code
+ * print_alphabet - Make the alphabet
  *
- * Return: Always 0.
+ * Return:void
  */
+
 void print_alphabet(void)
 {
-	int i;
-
-	for (i = 97; i<= 122; i++)
-	{
-		_putchar(i);
-	}
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
+       	_putchar(ch);
 	_putchar('\n');
 }
