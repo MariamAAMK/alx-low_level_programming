@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * main - entry point
+ *
+ * Description: Test function if positive or negative
+ *Return: void
+
 void positive_or_negative(int i)
 {
 	if (i > 0)
