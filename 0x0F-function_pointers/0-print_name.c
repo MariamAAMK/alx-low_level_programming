@@ -7,9 +7,9 @@
  * @f: function pointer
  */
 
-typedef void (*f)(char *);
+typedef void (*PrintFunction)(char *);
 
-void print_name(char *name, void (*f)(char *))
+void print_name(char *name, PrintFunction f)
 {
 	f(name);
 }
